@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: probed
+source: live probe of https://theladders.com/.well-known/*
+host: https://theladders.com
+note: >-
+  All /.well-known/ discovery paths return HTTP 403 (the site fronts requests
+  with a WAF/bot filter). No security.txt, OIDC, OAuth authorization-server,
+  api-catalog, or ai-plugin document is published. No raw files saved.
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403

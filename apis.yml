@@ -1,8 +1,27 @@
 aid: the-ladders
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-ladders.png
 name: The Ladders
-description: 'The Ladders is a company surfaced as a portfolio company of matrix-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Ladders (TheLadders.com) is a New York City based online job-search service
+  founded in 2003 by Marc Cenedella that specializes in vetted executive and
+  professional roles paying $100,000 or more per year. The subscription platform
+  pairs a curated $100K+ job board with recruiter access, resume review and
+  rewrite tools, AI-powered resume and LinkedIn optimization, and a daily
+  career-news and advice product (Ladders News). It runs a consumer-facing web
+  application with free Basic and paid Premium memberships and, as of this
+  profile, publishes no public developer API, OpenAPI, or partner integration
+  program.
 url: https://raw.githubusercontent.com/api-evangelist/the-ladders/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Jobs
+- Careers
+- Recruiting
+- Job Search
+- Executive Jobs
+- Employment
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://theladders.com
+  url: https://www.theladders.com
+- type: Blog
+  url: https://www.theladders.com/career-advice
+  name: Ladders News / Career Advice
+- type: Pricing
+  url: https://www.theladders.com/upgrade
+- type: Support
+  url: https://support.theladders.com/
+  name: Ladders Help Center
+- type: TermsOfService
+  url: https://www.theladders.com/corporate/terms
+- type: PrivacyPolicy
+  url: https://www.theladders.com/theladders-privacy
+- type: DomainSecurity
+  url: security/the-ladders-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

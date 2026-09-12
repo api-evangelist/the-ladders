@@ -3,12 +3,19 @@
   "feeds": [
     {
       "source": "https://www.theladders.com",
+      "feed_url": "https://www.theladders.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.theladders.com/feed/",
       "feed_url": "https://www.theladders.com/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "post_count": 30,
+  "fetched": "2026-09-06T19:17:18Z"
 }

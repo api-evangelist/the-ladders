@@ -3,19 +3,13 @@
   "feeds": [
     {
       "source": "https://www.theladders.com",
-      "feed_url": "https://www.theladders.com",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "HTTPError"
     },
     {
       "source": "https://www.theladders.com/feed/",
-      "feed_url": "https://www.theladders.com/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
+      "error": "HTTPError"
     }
   ],
   "post_count": 30,
-  "fetched": "2026-09-06T19:17:18Z"
+  "fetched": "2026-09-13T13:00:00Z"
 }

@@ -4,12 +4,8 @@
     {
       "source": "https://www.theladders.com",
       "error": "HTTPError"
-    },
-    {
-      "source": "https://www.theladders.com/feed/",
-      "error": "HTTPError"
     }
   ],
   "post_count": 30,
-  "fetched": "2026-09-13T13:00:00Z"
+  "fetched": "2026-09-19T20:17:39Z"
 }
